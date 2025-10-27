@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Regular";
+  src: url("/fonts/regular.ttf");
+}
+
+@font-face {
+  font-family: "Medium";
+  src: url("/fonts/medium.ttf");
+}
+
+@font-face {
+  font-family: "SemiBold";
+  src: url("/fonts/semibold.ttf");
+}
+
+@font-face {
+  font-family: "Bold";
+  src: url("/fonts/bold.ttf");
+}
+
+@theme {
+  --color-primary: #e4e4e4;
+  --color-secondary: #AFB3BD;
+  --font-regular: "Regular";
+  --font-medium: "Medium";
+  --font-semibold: "SemiBold";
+  --font-bold: "Bold";
+}
+
+html {
+  width: 100vw;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #2B2E35;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
