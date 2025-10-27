@@ -6,7 +6,7 @@ const NavBar = () => {
 
   return (
     <header>
-        <nav className="container mx-auto flex items-center justify-between mt-5 2xl:px-0">
+        <nav className="container mx-auto flex items-center justify-between mt-5 2xl:px-0 relative z-10">
             <h2 className="text-lg text-primary font-regular">gw.læder</h2>
 
             <ul className="flex items-center text-regular text-base gap-12">
