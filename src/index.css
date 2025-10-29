@@ -23,6 +23,7 @@
 @theme {
   --color-primary: #e4e4e4;
   --color-secondary: #AFB3BD;
+  --color-backgroundsecondary: #363c49;
   --font-regular: "Regular";
   --font-medium: "Medium";
   --font-semibold: "SemiBold";
