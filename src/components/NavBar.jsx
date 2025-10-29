@@ -1,22 +1,26 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 const NavBar = () => {
 
     const label = ["Products", "Order"];
 
   return (
-    <header>
-        <nav className="container mx-auto flex items-center justify-between mt-5 2xl:px-0 relative z-10">
-            <h2 className="text-lg text-primary font-regular">gw.læder</h2>
+    <header className="sticky">
+        <nav className="container mx-auto flex items-center justify-between mt-5 2xl:px-0">
+            <Link to="/" className="text-lg text-primary font-regular">
+                gw.læder
+            </Link>
 
-            <ul className="flex items-center text-regular text-base gap-12">
+            <ul className="flex items-center font-regular text-base gap-12 md:text-base">
                 {label.map((label) => (
                     <li key={label}>
-                        <a href={label}
-                        className="hidden md:block text-primary opacity-60 font-regular cursor-pointer hover:opacity-100 transition-all duration-300 ease-in-out" 
+                        <Link to={'/'+label.toLowerCase()}
+                        className="hidden md:block text-primary opacity-60 cursor-pointer hover:opacity-100 transition-all duration-300 ease-in-out" 
                         >
                             {label}
-                        </a>
+                        </Link>
                     </li>
                 ))}
             </ul>
