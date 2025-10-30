@@ -40,7 +40,9 @@ const products = [
 
 
 const ProductCard = ({ product }) => (
-    <div className="flex-shrink-0 max-w-xs mx-auto rounded-sm bg-backgroundsecondary shadow-md overflow-hidden">
+    <div className="productcards 
+    transition-all duration-300 ease-in-out
+      hover:shadow-xl hover:-translate-y-1">
         <img 
             src={product.image}
             alt={product.name}
@@ -53,7 +55,7 @@ const ProductCard = ({ product }) => (
             <p className="text-secondary text-base font-regular">
                 {product.description}
             </p>
-            <p className="text-secondary mt-4 font-semibold text-base">
+            <p className="text-primary mt-4 font-regular text-base">
                 {product.price}
             </p>
         </div>

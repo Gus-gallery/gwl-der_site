@@ -46,6 +46,10 @@
   }
 }
 
+@utility productcards {
+  @apply shrink-0 max-w-xs mx-auto rounded-sm bg-backgroundsecondary shadow-md overflow-hidden;
+  }
+
 :root {
   line-height: 1.5;
   font-weight: 400;
