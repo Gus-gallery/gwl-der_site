@@ -25,7 +25,7 @@ const OrderButton = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center text-center p-10">
+    <div className="flex flex-col items-center justify-center text-center p-8">
       {!isFormOpen && !isSent && (
         <button
           onClick={() => setIsFormOpen(true)}
@@ -36,13 +36,12 @@ const OrderButton = () => {
           <img
             src="/mailvector.png"
             alt="send mail"
-            className="w-auto h-auto"
+            className="w-4 h-4"
           />
           <span>Send forespørgsel</span>
         </button>
       )}
 
-      {/* Formular */}
       {isFormOpen && !isSent && (
         <form
           onSubmit={handleSubmit}
@@ -83,7 +82,7 @@ const OrderButton = () => {
       )}
 
       {isSent && (
-        <div className="text-center mt-10 animate-fade-in">
+        <div className="text-center mt-10 animate-fade-in p-4">
           <h2 className="text-lg font-semibold text-primary">Message almost sent!</h2>
           <p className="text-secondary font-regular mt-2">
             I promise that i'll respond as soon as soon as possible.
