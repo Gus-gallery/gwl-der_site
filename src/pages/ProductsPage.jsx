@@ -10,7 +10,7 @@ const ProductsPage = () => {
         <div className="flex items-center justify-center text-secondary font-regular text-base mt-6">
           All orders by
           <Link 
-            to="/orders"
+            to="/order"
             className="text-secondary underline hover:text-primary transition-colors ml-1"
           >
             inquiry
