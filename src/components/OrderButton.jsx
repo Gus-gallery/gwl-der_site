@@ -38,7 +38,7 @@ const OrderButton = () => {
             alt="send mail"
             className="w-4 h-4"
           />
-          <span>Send forespørgsel</span>
+          <span>Send mail</span>
         </button>
       )}
 
@@ -85,7 +85,7 @@ const OrderButton = () => {
         <div className="text-center mt-10 animate-fade-in p-4">
           <h2 className="text-lg font-semibold text-primary">Message almost sent!</h2>
           <p className="text-secondary font-regular mt-2">
-            I promise that i'll respond as soon as soon as possible.
+            I promise that i'll respond as soon as possible.
           </p>
           <button
             onClick={() => setIsSent(false)}

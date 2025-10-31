@@ -46,9 +46,9 @@ const ProductCard = ({ product }) => (
         <img 
             src={product.image}
             alt={product.name}
-            className="p-4 w-fit h48 object-cover"
+            className="p-4 w-fit h-auto object-cover"
         />
-        <div className="p-4">
+        <div className="p-4 flex flex-col justify-between">
             <h3 className="text-primary font-semibold text-lg mb-2 -mt-4">
                 {product.name}
             </h3>
@@ -65,11 +65,11 @@ const ProductCard = ({ product }) => (
 const ProductCarousel = () => {
     return (
         <div className="overflow-x-auto py-6 scroll-smooth pl-10">
-            <div className="flex flex-nowrap gap-10">
+            <div className="container flex flex-col md:flex-row flex-nowrap gap-10">
                 {products.map(product => (
                     <ProductCard key={product.id} product={product} />
                 ))}
-                <div className="w-1 flex-shrink-0" aria-hidden="true" />
+                <div className="w-1 shrink-0" aria-hidden="true" />
             </div>
         </div>
     )

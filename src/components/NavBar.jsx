@@ -8,23 +8,22 @@ const NavBar = () => {
 
   return (
     <header className="sticky">
-        <nav className="container mx-auto flex items-center justify-between mt-5 2xl:px-0">
+        <nav className="container mx-auto flex items-center justify-between mt-5">
             <Link to="/" className="text-lg text-primary font-regular">
                 gw.læder
             </Link>
 
-            <ul className="flex items-center font-regular text-base gap-12 md:text-base">
+            <ul className="flex flex-col md:flex-row items-center font-regular gap-12 text-base">
                 {label.map((label) => (
                     <li key={label}>
                         <Link to={'/'+label.toLowerCase()}
-                        className="hidden md:block text-primary opacity-60 cursor-pointer hover:opacity-100 transition-all duration-300 ease-in-out" 
+                        className="text-primary opacity-60 cursor-pointer hover:opacity-100 transition-all duration-300 ease-in-out" 
                         >
                             {label}
                         </Link>
                     </li>
                 ))}
             </ul>
-
         </nav>
     </header>
   )
