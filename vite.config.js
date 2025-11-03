@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "gwl-der_site",
+  base: "/gwl-der_site/",
   plugins: [react(), tailwindcss()],
 })
