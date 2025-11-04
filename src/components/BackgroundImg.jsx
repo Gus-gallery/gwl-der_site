@@ -2,16 +2,16 @@ import React from 'react'
 import { useMemo } from 'react'
 
 const images = [
-    { src: "/landingimages/3.png"},
-    { src: "/landingimages/2.png"},
-    { src: "/landingimages/4.png"},
-    { src: "/landingimages/1.png"},
-    { src: "/landingimages/5.png"},
-    { src: "/landingimages/6.png"},
-    { src: "/landingimages/7.png"},
-    { src: "/landingimages/8.png"},
-    { src: "/landingimages/9.png"},
-    { src: "/landingimages/10.png"},
+    { src: "/gwl-der_site/landingimages/3.png"},
+    { src: "/gwl-der_site/landingimages/2.png"},
+    { src: "/gwl-der_site/landingimages/4.png"},
+    { src: "/gwl-der_site/landingimages/1.png"},
+    { src: "/gwl-der_site/landingimages/5.png"},
+    { src: "/gwl-der_site/landingimages/6.png"},
+    { src: "/gwl-der_site/landingimages/7.png"},
+    { src: "/gwl-der_site/landingimages/8.png"},
+    { src: "/gwl-der_site/landingimages/9.png"},
+    { src: "/gwl-der_site/landingimages/10.png"},
 ];
 
 export default function BackgroundImg() {

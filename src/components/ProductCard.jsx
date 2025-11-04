@@ -6,35 +6,35 @@ const products = [
         name: "Daily Wallet",
         description: "Handstitched cardholder, perfect for daily errands.",
         price: "550 DKK.",
-        image: "/products/single.png"
+        image: "/gwl-der_site/products/single.png"
     },
     {
       id: 2,
       name: "Folded Daily Wallet",
       description: "Handstitched with french thread, made in italian leather.",
       price: "650 DKK.",
-      image: "/products/double.png"
+      image: "/gwl-der_site/products/double.png"
     },
     {
       id: 3,
       name: "Classic Leather Belt",
       description: "Thick italian cow leather with brass buckle.",
       price: "500 DKK.",
-      image: "/products/belt.png"
+      image: "/gwl-der_site/products/belt.png"
     },
     {
       id: 4,
       name: "Closed Wallet",
       description: "Ialian leather wallet with brass button closure.",
       price: "700 DKK.",
-      image: "/products/fold.png"
+      image: "/gwl-der_site/products/fold.png"
     },
     {
         id: 5,
         name: "Shoulder Clutch",
         description: "Tumbled leather, french thread and brass hardware.",
         price: "1900 DKK.",
-        image: "/products/clutch.png"
+        image: "/gwl-der_site/products/clutch.png"
     }
 ]
 
