@@ -9,7 +9,6 @@ const images = [
     { src: "/gwl-der_site/landingimages/5.png"},
     { src: "/gwl-der_site/landingimages/6.png"},
     { src: "/gwl-der_site/landingimages/7.png"},
-    { src: "/gwl-der_site/landingimages/8.png"},
     { src: "/gwl-der_site/landingimages/9.png"},
     { src: "/gwl-der_site/landingimages/10.png"},
 ];
