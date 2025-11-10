@@ -14,11 +14,12 @@ const OrderPage = () => {
           <a href="https://www.instagram.com/gustavwerdelin/" target="_blank"
           rel="noopener noreferrer" className="underline hover:text-primary ease-in-out duration-300 font-semibold ml-1">instagram</a>.
         </h1>
-        <div className="productcards p-2 mt-6 transition-all ease-in-out duration-300 hover:shadow-xl">
-          <img 
-          src="/gwl-der_site/landingimages/11.png"
-          alt="simple wallet"
-          className="w-fit h-auto object-cover grayscale-100 hover:grayscale-0 ease-in-out duration-300"/>
+        <div className="productcards p-2 mt-6 transition-all ease-in-out duration-300 drop-shadow-amber-300 shadow-2xl">
+          <video 
+          src="/gwl-der_site/flame.MOV"
+          alt="light"
+          className="w-fit h-auto object-cover"
+          loop muted autoPlay playsInline/>
         </div>
     </main>
   )

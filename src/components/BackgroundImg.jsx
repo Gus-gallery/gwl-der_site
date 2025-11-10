@@ -13,6 +13,8 @@ const images = [
     { src: "/gwl-der_site/landingimages/10.png"},
 ];
 
+const isTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+
 export default function BackgroundImg() {
     const randomImages = useMemo(() => {
         return images.map((img) => ({
@@ -20,6 +22,7 @@ export default function BackgroundImg() {
           top: `${Math.random() * 80 + 10}%`, 
           left: `${Math.random() * 80 + 10}%`,
           size: `${Math.random() * 100 + 200}px`, 
+          delay: Math.random() * 5,
         }));
       }, []);
     
@@ -29,7 +32,8 @@ export default function BackgroundImg() {
         {randomImages.map((img) => (
           <div
             key={img}
-            className="absolute opacity-0 hover:opacity-100 transition-opacity duration-500 ease-in-out pointer-events-auto"
+            className={`absolute transition-opacity duration-500 ease-in-out pointer-events-auto
+              ${isTouch ? "animate-fadeInOut" : "opacity-0 hover:opacity-100"}`}
             style={{
               top: img.top,
               left: img.left,

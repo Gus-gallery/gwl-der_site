@@ -65,7 +65,7 @@ const ProductCard = ({ product }) => (
 const ProductCarousel = () => {
     return (
         <div className="overflow-x-auto py-6 scroll-smooth pl-10">
-            <div className="container flex flex-col md:flex-row flex-nowrap gap-10">
+            <div className="container flex flex-row flex-nowrap gap-10">
                 {products.map(product => (
                     <ProductCard key={product.id} product={product} />
                 ))}
