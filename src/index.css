@@ -70,10 +70,10 @@ body {
 }
 
 @keyframes fadeInOut {
-  0%, 100% { opacity: 0; }
-  50% { opacity: 1; }
+  0%, 70%, 100% { opacity: 0; } 
+  80%, 90% { opacity: 1; } 
 }
 
 .animate-fadeInOut {
-  animation: fadeInOut 6s ease-in-out infinite;
+  animation: fadeInOut 8s ease-in-out infinite;
 }
