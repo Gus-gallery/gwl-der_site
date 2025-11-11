@@ -22,7 +22,7 @@ export default function BackgroundImg() {
           top: `${Math.random() * 80 + 10}%`, 
           left: `${Math.random() * 80 + 10}%`,
           size: `${Math.random() * 100 + 200}px`, 
-          delay: Math.random() * 5,
+          delay: Math.random() * 4 + 8,
         }));
       }, []);
     
@@ -39,6 +39,7 @@ export default function BackgroundImg() {
               left: img.left,
               width: img.size,
               height: img.size,
+              animationDelay: `${img.delay}s`,
               transform: `translate(-50%, -50%)`,
             }}
           >
