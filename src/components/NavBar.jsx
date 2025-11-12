@@ -8,12 +8,12 @@ const NavBar = () => {
 
   return (
     <header className="sticky">
-        <nav className="container mx-auto flex flex-wrap items-center justify-between mt-5">
+        <nav className="container mx-auto flex flex-wrap items-center px-4 lg:px-0 justify-between mt-5">
             <Link to="/" className="text-lg text-primary font-regular">
                 gw.læder
             </Link>
 
-            <ul className="flex flex-wrap md:flex-row justify-end items-center font-regular gap-12 text-base">
+            <ul className="flex flex-wrap md:flex-row justify-end items-center gap-6 lg:gap-12 font-regular text-base">
                 {label.map((label) => (
                     <li key={label}>
                         <Link to={'/'+label.toLowerCase()}

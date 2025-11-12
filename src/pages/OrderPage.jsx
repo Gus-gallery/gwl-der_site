@@ -18,7 +18,7 @@ const OrderPage = () => {
           <video 
           src="/gwl-der_site/flame.MOV"
           alt="light"
-          className="w-fit h-auto object-cover"
+          className="w-fit object-cover"
           loop muted autoPlay playsInline/>
         </div>
     </main>
