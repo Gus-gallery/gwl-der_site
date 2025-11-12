@@ -32,13 +32,13 @@ export default function BackgroundImg() {
           <div
             key={img}
             className={`absolute transition-opacity duration-500 ease-in-out pointer-events-auto
-              ${isTouch ? "animate-fadeInOut" : "opacity-0 hover:opacity-100"}`}
+              ${isTouch ? "animate-fadeInOut scale-75" : "opacity-0 hover:opacity-100"}`}
             style={{
               top: img.top,
               left: img.left,
               width: img.size,
               height: img.size,
-              animationDuration: `${Math.random() * 5 + 6}s`,
+              animationDuration: `${Math.random() * 8 + 10}s`,
               transform: `translate(-50%, -50%)`,
             }}
           >
