@@ -32,7 +32,7 @@ const products = [
     {
         id: 5,
         name: "Shoulder Clutch",
-        description: "Tumbled leather, french thread and brass hardware.",
+        description: "Tumbled leather, french thread and brass hardware. Handsewn with leather lining. Comes with shoulder strap in matching leather.",
         price: "1900 DKK.",
         image: "/gwl-der_site/products/clutch.png"
     },
