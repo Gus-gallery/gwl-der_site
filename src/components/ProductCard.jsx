@@ -35,6 +35,13 @@ const products = [
         description: "Tumbled leather, french thread and brass hardware.",
         price: "1900 DKK.",
         image: "/gwl-der_site/products/clutch.png"
+    },
+    {
+        id: 6,
+        name: "French Tote",
+        description: "Tote bag with french style rolled handles in tumbled italian leather. Handsewn with thick bottom panel and half-circle bottom stitching.",
+        price: "2500 DKK.",
+        image: "/gwl-der_site/products/tote.png"
     }
 ]
 
