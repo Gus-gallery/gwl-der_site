@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
 import { Link } from 'react-router-dom'
+import Footer from '../components/Footer'
 
 const OrderPage = () => {
   return (
@@ -21,6 +22,7 @@ const OrderPage = () => {
           className="w-fit object-cover"
           loop muted autoPlay playsInline/>
         </div>
+        <Footer />
     </main>
   )
 }

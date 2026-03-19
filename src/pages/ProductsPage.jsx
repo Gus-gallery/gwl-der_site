@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import NavBar from '../components/NavBar'
 import ProductCarousel from '../components/ProductCard'
+import Footer from '../components/Footer'
 
 const ProductsPage = () => {
   return (
@@ -17,6 +18,7 @@ const ProductsPage = () => {
           </Link>.
         </div>
         <ProductCarousel />
+          <Footer />
     </main>
   )
 }
